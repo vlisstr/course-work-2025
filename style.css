@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  padding: 10px;
+  width: 250px;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+#quote {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+ul {
+  padding-left: 20px;
+}
+a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007acc;
+  text-decoration: none;
+}

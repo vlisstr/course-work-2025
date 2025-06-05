@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Extension",
+  "version": "1.0",
+  "description": "Розширення для фокусу та продуктивності: Pomodoro, задачі, блокування сайтів.",
+  "permissions": [
+    "storage",
+    "tabs",
+    "scripting",
+    "webNavigation"      // ← ОБОВ’ЯЗКОВО для роботи onBeforeNavigate
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html"
+}
